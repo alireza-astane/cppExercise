@@ -1,0 +1,3 @@
+cmake -DCMAKE_PREFIX_PATH=/media/alireza-astane/Shared/libtorch
+sudo snap install clion --classic
+./dcgan

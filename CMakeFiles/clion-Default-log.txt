@@ -1,0 +1,19 @@
+/snap/clion/248/bin/cmake/linux/x64/bin/cmake -S /home/alireza-astane/dcgan -B /home/alireza-astane/dcgan
+-- Caffe2: CUDA detected: 11.8
+-- Caffe2: CUDA nvcc is: /usr/bin/nvcc
+-- Caffe2: CUDA toolkit directory: /usr
+-- Caffe2: Header version is: 11.8
+CMake Warning at /home/alireza-astane/libtorch/share/cmake/Caffe2/public/cuda.cmake:166 (message):
+  Failed to compute shorthash for libnvrtc.so
+Call Stack (most recent call first):
+  /home/alireza-astane/libtorch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)
+  /home/alireza-astane/libtorch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)
+  CMakeLists.txt:4 (find_package)
+
+
+-- USE_CUDNN is set to 0. Compiling without cuDNN support
+-- Autodetected CUDA architecture(s):  8.6
+-- Added CUDA NVCC flags for: -gencode;arch=compute_86,code=sm_86
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/alireza-astane/dcgan
